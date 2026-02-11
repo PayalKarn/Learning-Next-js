@@ -1,3 +1,5 @@
+import Link from "next/link";
+
 export default function Navigation() {
   return (
     <header className="bg-white shadow">
@@ -8,29 +10,29 @@ export default function Navigation() {
         {/* Menu */}
         <ul className="flex gap-6 text-gray-700 font-medium">
           <li>
-            <a href="/" className="hover:text-blue-600">
+            <Link href="/" className="hover:text-blue-600">
               Home
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/about" className="hover:text-blue-600">
+            <Link href="/about" className="hover:text-blue-600">
               About
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/service" className="hover:text-blue-600">
+            <Link href="/service" className="hover:text-blue-600">
               Service
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/service/teams" className="hover:text-blue-600">
+            <Link href="/service/teams" className="hover:text-blue-600">
               Teams
-            </a>
+            </Link>
           </li>
           <li>
-            <a href="/contact" className="hover:text-blue-600">
+            <Link href="/contact" className="hover:text-blue-600">
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
