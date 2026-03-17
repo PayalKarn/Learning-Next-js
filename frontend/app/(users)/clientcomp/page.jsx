@@ -1,5 +1,6 @@
 "use client";
 
+import { Counter } from "@/components/Counter";
 import { useEffect, useState } from "react";
 
 const ClientComp = () => {
@@ -20,10 +21,10 @@ const ClientComp = () => {
   return (
     <>
       <h1>Client Comp</h1>
-      {/* <button className="bg-amber-600 py-4 px-2" onClick={() => alert("hii")}>
+      <button className="bg-amber-600 py-4 px-2" onClick={() => alert("hii")}>
         Click me
-      </button> */}
-
+      </button>
+<Counter/>
       <ul className="grid grid-cols-3 gap-5">
         {postData.map((curElem, index) => {
            
