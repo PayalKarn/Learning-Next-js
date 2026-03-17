@@ -20,6 +20,16 @@ export default function Navigation() {
             </Link>
           </li>
           <li>
+            <Link href="/servercomp" className="hover:text-blue-600">
+              ServerComp
+            </Link>
+          </li>
+          <li>
+            <Link href="/clientcomp" className="hover:text-blue-600">
+              ClientComp
+            </Link>
+          </li>
+          <li>
             <Link href="/service" className="hover:text-blue-600">
               Service
             </Link>
